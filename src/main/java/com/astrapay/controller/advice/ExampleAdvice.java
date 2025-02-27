@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-@ControllerAdvice
+// @ControllerAdvice
 class ExampleAdvice {
     @ResponseStatus(HttpStatus.CONFLICT)  // 409
     @ExceptionHandler(Exception.class)
